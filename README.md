@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Radio Ñasaindy FM 620 AM</title>
+<title>Radio Ñasaindy AM 620 AM</title>
 
 <style>
 body{
@@ -28,7 +28,7 @@ cursor:pointer;
 
 <body>
 
-<h1>ZP 40 Radio Ñasaindy FM 620 AM</h1>
+<h1>ZP 40 Radio Ñasaindy AM 620 AM</h1>
 
 <p>Escuchanos en vivo</p>
 
