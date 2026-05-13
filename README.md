@@ -9,9 +9,9 @@
 <style>
 body{
     margin:0;
-    font-family:Arial, sans-serif;
     background:#111;
     color:white;
+    font-family:Arial;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -25,27 +25,15 @@ body{
 
 h1{
     font-size:40px;
-    margin-bottom:10px;
 }
 
 p{
-    margin-bottom:30px;
     color:#ccc;
 }
 
-.btn{
-    display:inline-block;
-    padding:18px 35px;
-    background:red;
-    color:white;
-    text-decoration:none;
-    font-size:22px;
-    border-radius:12px;
-    transition:0.3s;
-}
-
-.btn:hover{
-    transform:scale(1.05);
+audio{
+    width:300px;
+    margin-top:20px;
 }
 </style>
 </head>
@@ -54,13 +42,14 @@ p{
 
 <div class="container">
 
-<h1>ZP40 Radio Ñasaindy</h1>
+<h1>📻 ZP40 Radio Ñasaindy</h1>
 
-<p>Escuchá nuestra transmisión en vivo</p>
+<p>Transmitiendo en vivo</p>
 
-<a class="btn" href="http://84.247.167.61:2199/start/nasaindy/" target="_blank">
-🎧 ESCUCHAR EN VIVO
-</a>
+<audio controls autoplay>
+<source src="http://84.247.167.61:2199/start/nasaindy/" type="audio/mpeg">
+Tu navegador no soporta audio.
+</audio>
 
 </div>
 
